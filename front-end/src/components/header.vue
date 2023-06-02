@@ -53,6 +53,15 @@
                         </svg>
                     </button>
                 </div>
+                <div class="flex items-center justify-between space-x-4 text-lg ">
+                    <div class="group">
+                        <p class="font-Bold text-xl">{{ name }}</p>
+                        <div class="border-b-2 mt-2 opacity-0 group-hover:opacity-100  group-hover:border-softBlue duration-500"></div>
+                    </div>
+                    <router-link to="/" class="block">
+                        <button @click="logout" class="rounded-lg px-4 py-2 border-2 border-softBlue shadow-md bg-softBlue text-white hover:bg-white hover:text-softBlue transition-all duration-500">Log out</button>
+                    </router-link> 
+                </div>
             </div> 
             
         </nav>
