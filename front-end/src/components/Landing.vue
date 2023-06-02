@@ -24,7 +24,7 @@
                         <div class="border-b-2 mx-auto mt-2 opacity-0 group-hover:opacity-100 border-softBlue duration-500"></div>
                     </div>
                     <div class="group">
-                        <router-link to="Detail">Restaurants</router-link>
+                        <a href="#main">Restaurants</a>
                         <div class="border-b-2 mx-auto mt-2 opacity-0 group-hover:opacity-100 border-softBlue duration-500"></div>
                     </div>
                     <div class="group">

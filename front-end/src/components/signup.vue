@@ -56,7 +56,7 @@ export default {
 	methods:{
 		async signup(){
 			if(this.name && this.email && this.password){
-                let result = await axios.post("http://localhost:3000/users", {
+                let result = await axios.post("https://users-mtpj.onrender.com/users", {
                     "name": this.name,
                     "email": this.email,
                     "password": this.password,
