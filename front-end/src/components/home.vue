@@ -1,7 +1,7 @@
 <template>
     <main>
         <HeaderPage />
-    <div class="flex justify-center mb-20 flex-col mt-0 md:mt-24 items-center min-h-screen md:p-5" id="main">
+    <div class="flex justify-center mb-20 flex-col -mt-16 md:mt-24 items-center min-h-screen md:p-5" id="main">
         <div class="hidden md:flex justify-center items-center mb-20 w-full ">
             <div class="flex justify-between border-2 shadow-md active:scale-95 focus:outline-softBlue rounded" >
                 <input type="text" 

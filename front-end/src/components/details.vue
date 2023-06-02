@@ -5,7 +5,7 @@
       <!-- Tabs container -->
       <div class="flex flex-col text-xl justify-center items-center md:items-end w-full h-40 bg-softBlue text-white md:text-lg mb-6 md:space-x-10 md:flex-row" id="title">
         <!-- Tab 1 -->
-        <div class="cursor-pointer active:border-b-2 md:rounded-tl-2xl md:rounded-tr-2xl md:bg-white md:text-slate-800 md:p-6 tab transition-all duration-200 ease-linear" data-target="panel-1">
+        <div class="cursor-pointer underline md:no-underline md:rounded-tl-2xl md:rounded-tr-2xl md:bg-white md:text-slate-800 md:p-6 tab transition-all duration-200 ease-linear" data-target="panel-1">
           General Infos
         </div>
         <!-- Tab 2 -->
@@ -96,9 +96,10 @@
               <a
                 href="https://www.google.com/maps/@41.4010197,2.1736079,15.14z?entry=ttu"
                 class="px-6 py-3 mt-4 font-semibold text-white border-2 rounded-lg md:inline-flex border-white bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue"
-                >Open on Maps 
-                ( enter in the map search bar <strong>Longitude, latitude</strong> )</a
-              >
+                >Open on Maps </a>
+            </div>
+            <div class="border-green-200 bg-green-100 text-green-800 p-2 text-sm rounded-md w-fit">
+              Enter in the map search bar <strong> (Longitude, latitude) </strong> 
             </div>
           </div>
         </div>
@@ -191,12 +192,14 @@ export default {
           child.classList.add('md:bg-white');
           child.classList.add('md:text-slate-800');
           child.classList.add('md:p-6');
+          child.classList.add('underline');
         } else {
           child.classList.remove('md:rounded-tl-2xl');
           child.classList.remove('md:rounded-tr-2xl');
           child.classList.remove('md:bg-white');
           child.classList.remove('md:text-slate-800');
           child.classList.remove('md:p-6');
+          child.classList.remove('underline');
         }
       });
     }

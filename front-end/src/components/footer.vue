@@ -4,7 +4,7 @@
             <div class="flex flex-col items-center justify-center">
                 <img src="../assets/logoFooterBlack.png" class="relative w-[95px] h-[95px] cursor-pointer"  alt="Logo image" />
                 <p class="max-w-sm text-center">
-                    Easy-Finding is a company that, as its name says, works to find what you need easily and quickly, regardless of the field.
+                    Easy-Finding is a company that, as its name says, helps finding Restaurants registered in the theFork database easily and quickly.
                 </p>
             </div>
             <div class="flex flex-col items-center justify-center space-y-4">

@@ -71,10 +71,10 @@
             </div>
         </div>
 
-        <div class="flex flex-col justify-center items-center min-h-[70vh]">
+        <div class="flex flex-col justify-center items-center -mt-64 md:mt-0 min-h-[70vh]">
             <h2 class="text-3xl font-bold text-slate-800">Easy Finding.restau</h2>
             <p class="text-center text-lg max-w-md text-grayishBlue mt-3">
-                Easy-Finding is a fictive company that, as its name says, works to find what you need easily and quickly, regardless of the field. 
+                Easy-Finding is a fictive company that, as its name says, helps finding Restaurants registered in the theFork database easily and quickly. 
             </p>
         </div>
     </div>
