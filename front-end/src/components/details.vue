@@ -9,11 +9,11 @@
           General Infos
         </div>
         <!-- Tab 2 -->
-        <div class="cursor-pointer active:border-b-2 tab transition-all duration-200 ease-linear" data-target="panel-2">
+        <div class="cursor-pointer md:no-underline tab transition-all duration-200 ease-linear" data-target="panel-2">
           Geolocation
         </div>
         <!-- Tab 3 -->
-        <div class="cursor-pointer active:border-b-2 tab transition-all duration-200 ease-linear" data-target="panel-3"> 
+        <div class="cursor-pointer md:no-underline tab transition-all duration-200 ease-linear" data-target="panel-3"> 
           Photos caroussel
         </div>
       </div>
@@ -98,7 +98,7 @@
                 class="px-6 py-3 mt-4 font-semibold text-white border-2 rounded-lg md:inline-flex border-white bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue"
                 >Open on Maps </a>
             </div>
-            <div class="border-green-200 bg-green-100 text-green-800 p-2 text-sm rounded-md w-fit">
+            <div class="border-green-200 bg-green-100 text-green-800 p-2 text-sm rounded-md mx-auto md:mx-0  w-fit">
               Enter in the map search bar <strong> (Longitude, latitude) </strong> 
             </div>
           </div>

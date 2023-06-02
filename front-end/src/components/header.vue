@@ -53,7 +53,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="flex items-center justify-between space-x-4 text-lg ">
+                <div class="flex items-center justify-between space-x-4 text-lg md:hidden">
                     <div class="group">
                         <p class="font-Bold text-xl">{{ name }}</p>
                         <div class="border-b-2 mt-2 opacity-0 group-hover:opacity-100  group-hover:border-softBlue duration-500"></div>
